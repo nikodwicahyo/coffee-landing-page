@@ -162,10 +162,12 @@ button {
   font-weight: var(--font-bold);
 }
 
-.nav__extra {
-  display: flex;
+.nav__extra a{
+  display: inline-flex;
+  font-size: 1.7rem;
+  color: #fff;
   align-items: center;
-  column-gap: 0.5rem;
+  margin: 0 0.2rem;
   font-weight: var(--font-bold);
 }
 
@@ -173,8 +175,7 @@ button {
   width: 0.75rem;
 }
 
-.nav__toggle,
-.nav__extra {
+.nav__toggle {
   display: inline-flex;
   font-size: 1.7rem;
   cursor: pointer;
